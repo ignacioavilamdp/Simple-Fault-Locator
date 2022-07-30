@@ -12,12 +12,10 @@ namespace SFLOCATOR
 {
     public partial class FrmResults : Form
     {
-        //Fields
         private FrmLocator frmLocator;
         private FaultResults faultResults;
         private LineData lineData;
 
-        //Constructor
         public FrmResults(FrmLocator form, FaultResults results, LineData data)
         {
             frmLocator = form;

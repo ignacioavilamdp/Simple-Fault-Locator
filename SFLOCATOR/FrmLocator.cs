@@ -13,13 +13,11 @@ namespace SFLOCATOR
 {
     public partial class FrmLocator : Form
     {
-        //Fields
         private LineData lineData;
         private FaultData faultData;
         private FaultResults faultResults;
         private FrmResults frmResults;
 
-        //Constructor
         public FrmLocator()
         {
             InitializeComponent();
